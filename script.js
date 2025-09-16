@@ -203,7 +203,8 @@ function start() {
 }
 
  
-setInterval(()=>{ startButton.click();},3000);
+setInterval(()=>{ moveButton(startButton);},3000);
+setInterval(()=>{ moveButton(exitButton);},5000);
 // Функция выхода
 var answerWhenOut = ['Малыш, попридержи коней, ты только зашел, будь тактичен со мной','Я тебя чем то обидел? Зачем ты нажал на эту кнопку, я просто хочу найти себе друзей','Не уходи...побудь еще немного рядом...','Любопытный такой) Давай не будем думать о таком))']
 function exit() {
