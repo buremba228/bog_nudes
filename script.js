@@ -200,8 +200,7 @@ function start() {
         
     }).catch(error => {
         console.log('Ошибка воспроизведения: ', error);
-       // alert('Не удалось воспроизвести музыку. Возможно, файл не найден или формат не поддерживается.');
-    });
+        });
 }
 
  
@@ -252,8 +251,3 @@ document.addEventListener('DOMContentLoaded', function() {
     createGifBackground();
 });
 
-// Обработка ошибки загрузки музыки
-audio.addEventListener('error', function() {
-    console.error('Ошибка загрузки аудиофайла');
-    alert('Файл музыки не найден. Убедитесь, что файл music.mp3 находится в той же папке, что и index.html');
-});
