@@ -6,7 +6,7 @@ const welcomeText = document.getElementById('welcomeText');
 const scaryImage = document.getElementById('scary-image');
 const audio = new Audio();
 audio.preload = 'auto';
-audio.src = 'files/Jason Tai — Vale of tears (Alice. Madness Returns OST) (www.lightaudio.ru).mp3';
+audio.src = 'files/Неизвестен — (OST Бесконечное лето) (www.lightaudio.ru).mp3';
 const audioHor = new Audio();
 audioHor.preload = 'auto';
 audioHor.src = 'files/strashnye-zvuki-sirena.mp3';
@@ -250,5 +250,6 @@ exitButton.addEventListener('click', function() {
 document.addEventListener('DOMContentLoaded', function() {
     createGifBackground();
 });
+
 
 
