@@ -1,10 +1,12 @@
 // Получаем элементы DOM
-const audio = document.getElementById('bgMusic');
 const startButton = document.getElementById('startButton');
 const exitButton = document.getElementById('exitButton');
 const backgroundGifs = document.getElementById('background-gifs');
 const welcomeText = document.getElementById('welcomeText');
 const scaryImage = document.getElementById('scary-image');
+const audio = new Audio();
+audio.preload = 'auto';
+audio.src = 'files/Sergey_Eybog_-_Everlasting_Summer_48126637.mp3';
 const audioHor = new Audio();
 audioHor.preload = 'auto';
 audioHor.src = 'files/strashnye-zvuki-sirena.mp3';
